@@ -1,0 +1,322 @@
+
+  
+  
+  
+  /* html{    /*Universal selector*
+      position: relative;  
+      margin:0px;
+      box-sizing: border-box;
+      padding: 0px;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    
+  }  */
+
+  body {max-width: 100%;
+    width:100%;
+      font-size: 20px;
+      font-family: 'Lucida Sans';
+        box-sizing: border-box;
+        margin: 0px ;
+        
+    }
+
+  .header{
+      width:100%;
+      background-color: #fff;
+      color: #fff;
+      display:flex;
+      flex-grow: 1;
+      align-items:center;
+      padding-top:20px;
+     height:81px;
+     position:sticky;
+     top:0px;
+     box-sizing: border-box;
+     z-index:1;
+     text-align: center;
+  }
+
+.container{
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(30, 58, 30, 0.7)50%,rgba(29, 63, 29, 0.7)50%), url(/trial/KNUST-.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    
+}
+
+
+  ul li {
+      text-decoration: none;
+      list-style: none;
+      display: flex;
+      float: left;
+      font-family: 'Lucida Sans';
+   
+
+  }
+  ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:0 10px;
+  }
+  
+  a{
+      text-decoration: none;
+      color:rgb(187, 0, 0);
+  }
+
+  ul li a{
+      color: #000000;
+      text-decoration: none;
+     
+  }
+
+
+  ul li a:hover{
+      color:rgb(255, 208, 0);
+   transition: ease-in-out 0.2s;
+  }
+
+
+
+
+.header-control{
+    position: absolute;
+    font-size:17px;
+    color:#000000;
+    margin-left:120px;
+    font-weight: 550;
+    line-height:1.5;
+    padding-bottom:5px;
+    top:0px;
+    
+    
+}
+.nav-items{
+    flex-grow:1;
+}
+.logo-items{
+    flex-grow:.5;
+}
+.header-others{
+    align-items: center;
+    font-size: 13.5px;
+    font-weight: 550;
+    margin: 0 30px;
+    
+}
+span{
+    margin-left: 55px;
+}
+
+.logos{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin-top: 13px;
+    margin-right: 7.5px;
+}
+
+.logos:hover{
+    color: rgba(255, 208, 0, 0.959);
+     transition: ease-in-out 0.15s;
+}
+
+
+h2{
+    text-align: center;
+
+}
+
+
+.form-container{
+    
+    background: rgba(0,0,0,0.45);
+    padding:3%;
+    border: 1px solid #000000;
+    border-radius:10px;
+    box-sizing: border-box;
+    margin:0 auto;
+    
+}
+select{
+    background-color: rgba(196, 250, 196, 0.7);
+}
+
+.form-division{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    margin-top:50px;
+    box-sizing: border-box;
+    margin:auto;
+    
+    
+}
+
+
+
+
+.left-container{
+    margin: 2.125rem;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.KNUST-Logo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height:auto;
+    margin: 10px auto;
+}
+
+#Intro{
+    line-height: 2;
+    font-size:38px;
+    margin:auto 20px;;
+}
+
+.greetings{
+    margin-left: 30px;
+}
+
+.form-control{
+    padding-bottom:10px;
+    margin-top: -5px;
+    line-height:1.5;
+    font-size:16px;
+    font-weight: 650;
+}
+
+button, input, select, option, textarea{
+    width:100%;
+    height:45px;
+    font-size:auto;
+    margin-bottom:20px;
+    margin-top:10px;  
+    border-radius:7px;  
+    
+
+}
+
+.select{
+    background-color:rgba(255, 208, 0, 0.8);
+    color:rgb(224, 239, 255);
+    
+}
+
+.select:hover{
+    background-color:rgb(255, 208, 0);
+    cursor: pointer;
+   
+}
+
+.footer{
+    display:flex;
+    font-size: 12px;
+    width: 100%;
+    height:70vh;
+    padding: 50px 50px;
+    box-sizing: border-box;
+   
+}
+
+.ABOUT, .FOLLOW{
+    font-size:15px;
+    line-height: 1.5;
+    padding: 50px;
+
+}
+.FOLLOW{
+    flex-grow: 1;
+}
+
+.description{
+    line-height: 2;
+}
+
+.details{
+    line-height: 2;
+    margin-top:10px;
+}
+
+#detail{
+    color: rgb(236, 59, 15);
+    margin:0 8px;
+
+}
+
+.foot{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-icon{
+    display:flex;
+    position:baseline;
+    justify-content:center;
+    font-size: 30px;
+    padding-top: 40px;;
+}
+.footer hr{
+    margin:0px;
+    padding:0px;
+    opacity: 0.3;
+    width: auto;
+
+}
+
+
+p a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    border-radius: 50%;
+    align-self: center;
+   
+     
+}
+
+
+.follow:hover{
+    color:rgb(0, 0, 0);
+   border-radius: 50%;
+    
+}
+hr{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    opacity: 0.4;
+}
+
+.ABOUT h3{
+    text-align: center;
+}
+
+.footer .FOLLOW h3{
+    
+    text-align: center;
+}
+
+a img{
+    height:60px;
+    width:50px;
+}
