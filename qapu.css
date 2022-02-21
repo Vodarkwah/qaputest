@@ -215,7 +215,7 @@ button, input, select, option, textarea{
 
 }
 
-.select{
+div button.select{
     background-color: rgba(59, 220, 38, 0.7);
   font-weight:550px:
     letter-spacing:2px;
@@ -223,7 +223,7 @@ button, input, select, option, textarea{
     
 }
 
-.select:hover{
+div button.select:hover{
     background-color: rgba(59, 220, 38, 0.9);
     cursor: pointer;
    
