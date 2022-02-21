@@ -216,8 +216,8 @@ button, input, select, option, textarea{
 }
 
 .select{
-    background-color:rgba(255, 208, 0, 0.8);
-    color:rgb(224, 239, 255);
+    background-color: rgba(59, 220, 38, 0.8);
+/*     color:rgb(224, 239, 255); */
     
 }
 
@@ -322,3 +322,36 @@ a img{
 }
 
 /*Work to be done-------------making my page responsive*/
+
+@media screen and (max-width:1100px){
+
+.form-container{
+    
+    background: rgba(0,0,0,0.45);
+    padding:30px;
+    height:25vh;
+    border: 1px solid #000000;
+    border-radius:10px;
+    box-sizing: border-box;
+    margin-right:3.325rem;
+    
+}
+
+.greetings,.footer,.foot{
+    transform: scale(0.8);
+}
+.header{
+    box-sizing: border-box;
+}
+
+};
+
+@media  screen and (max-width:620px){
+    .KNUST{
+        display: none;
+    }
+    .header{
+    box-sizing: border-box;
+    display: none;
+}
+}
