@@ -23,3 +23,10 @@ switch (document.getElementById('colleges').value) {
     default:
         window.location = "./qapu.html"; // if no selection matches then redirected to home page
         break;}}
+
+var submit = document.getElementById('submit');
+submit.addEventListener("click", function (event) {
+    event.preventDefault();
+    SelectRedirect();
+
+});
