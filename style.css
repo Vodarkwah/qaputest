@@ -1,0 +1,28 @@
+div.container-fluid.background{
+    background: url(./KNUST-.jpg);
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)50%,rgba(0, 0, 0, 0.7)50%), url(/KNUST-.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+}
+
+div.rounded-3{
+    letter-spacing:3px;
+    background-color:rgba(33,37,41,0.7);
+
+}
+
+button#submit{
+    background:green;
+}
+
+form.login{
+    width:40%;    
+    /* margin-top: 7%; */
+    margin: 0 auto;
+    background:rgba(25,135,84,0.7);
+    border-radius: 20px;
+}
