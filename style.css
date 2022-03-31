@@ -1,7 +1,7 @@
 div.container-fluid.background{
     background: url(./KNUST-[1].jpg);
     background-repeat: no-repeat;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)50%,rgba(0, 0, 0, 0.7)50%), url(/KNUST-.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)50%,rgba(0, 0, 0, 0.7)50%), url(./KNUST-[1].jpg);
     background-position: center;
     background-size: cover;
     width:100%;
